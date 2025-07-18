@@ -1,0 +1,64 @@
+flavors:
+  demo:
+    app:
+      name: "Member Demo App"
+      icon: "assets/logos/demo/demo.png"
+    android:
+      applicationId: "com.membrix.demo"
+      firebase:
+        config: "firebase/android/google-services.json"
+    ios:
+      bundleId: "com.membrix.demo"
+      firebase:
+        config: "firebase/ios/GoogleService-Info.plist"
+
+  memberapp:
+    app:
+      name: "Member App"
+      icon: "assets/logos/memberapp/normal_white.png"
+    android:
+      applicationId: "com.membrix.memberapp"
+      firebase:
+        config: "firebase/android/google-services.json"
+    ios:
+      bundleId: "com.membrix.memberapp"
+      firebase:
+        config: "firebase/ios/GoogleService-Info.plist"
+
+  customerone:
+    app:
+      name: "Customer One"
+      icon: "assets/logos/customer_one/customer_one.png"
+    android:
+      applicationId: "com.membrix.customerone"
+      firebase:
+        config: "firebase/android/google-services.json"
+    ios:
+      bundleId: "com.membrix.customerone"
+      firebase:
+        config: "firebase/ios/GoogleService-Info.plist"
+instructions: [
+  "assets:download",
+  "assets:extract",
+  "android:androidManifest",
+  "android:flavorizrGradle",
+  "android:buildGradle",
+  "android:dummyAssets",
+  "android:icons",
+  "flutter:flavors",
+  "flutter:app",
+#  "flutter:pages",
+  "flutter:main",
+  "ios:podfile",
+  "ios:xcconfig",
+  "ios:buildTargets",
+  "ios:schema",
+  "ios:dummyAssets",
+  "ios:icons",
+  "ios:plist",
+  "ios:launchScreen",
+  "google:firebase",
+  "huawei:agconnect",
+  "assets:clean",
+  "ide:config"
+]

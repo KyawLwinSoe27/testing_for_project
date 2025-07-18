@@ -1,0 +1,6 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+ASSET_PREFIX=demo
+BUNDLE_NAME=Member Demo App
+BUNDLE_DISPLAY_NAME=Member Demo App

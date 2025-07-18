@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639520756211",
+    "project_id": "membrix-e7c96",
+    "storage_bucket": "membrix-e7c96.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639520756211:android:906c7966f4779b8c6d8286",
+        "android_client_info": {
+          "package_name": "com.noveltify.membrix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyoCeDQBlaN1xQuldcklzB4OXtiBdEebs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
